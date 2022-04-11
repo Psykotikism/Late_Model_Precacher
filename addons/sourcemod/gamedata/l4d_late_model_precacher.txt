@@ -1,0 +1,62 @@
+"Games"
+{
+	"#default"
+	{
+		"#supported"
+		{
+			"game"		"left4dead"
+			"game"		"left4dead2"
+		}
+
+		"Functions"
+		{
+			"LMPDetour_UTIL_SetModel"
+			{
+				"signature"	"UTIL_SetModel"
+				"callconv"	"cdecl"
+				"return"	"void"
+				"arguments"
+				{
+					"entity"
+					{
+						"type"		"cbaseentity"
+					}
+					"model"
+					{
+						"type"		"charptr"
+					}
+				}
+			}
+		}
+	}
+
+	"left4dead"
+	{
+		"Signatures"
+		{
+			"UTIL_SetModel"
+			{
+				"library"	"server"
+				"linux"		"@_Z13UTIL_SetModelP11CBaseEntityPKc"
+				"mac"		"@_Z13UTIL_SetModelP11CBaseEntityPKc"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x8B\x2A\x8B\x2A\x2A\x83\x2A\x2A\x53\x8B"
+						/* ? ? ? ? ? ? 8B ? 8B ? ? 83 ? ? 53 8B */
+			}
+		}
+	}
+
+	"left4dead2"
+	{
+		"Signatures"
+		{
+			"UTIL_SetModel"
+			{
+				"library"	"server"
+				"linux"		"@_Z13UTIL_SetModelP11CBaseEntityPKc"
+				"mac"		"@_Z13UTIL_SetModelP11CBaseEntityPKc"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x8B\x2A\x8B\x2A\x2A\x83\x2A\x2A\x53\x8B\x2A\x2A\x56\x57\x53\xFF"
+						/* ? ? ? ? ? ? ? ? ? 8B ? 8B ? ? 83 ? ? 53 8B ? ? 56 57 53 FF */
+			}
+		}
+	}
+}
