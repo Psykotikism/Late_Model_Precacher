@@ -5,6 +5,7 @@
 
 ## License
 > The following license is placed inside the source code of the plugin.
+
 Late Model Precacher: a L4D/L4D2 SourceMod Plugin
 Copyright (C) 2022  Alfred "Psyk0tik" Llagas
 
@@ -35,7 +36,7 @@ L 04/11/2022 - 13:15:48: [l4d_late_model_precacher.smx] UTIL_SetModel: Model mod
 ## Credits
 **epz/epzminion** - For the idea and solution.
 
-**SourceMod Team** - For continually updating/improving SourceMod.
+**SourceMod Team** - For continually updating/improving `SourceMod`.
 
 ## Requirements
 1. `SourceMod 1.10` or higher
@@ -66,7 +67,7 @@ L 04/11/2022 - 13:15:48: [l4d_late_model_precacher.smx] UTIL_SetModel: Model mod
 
 ## Disabling
 1. Move `l4d_late_model_precacher.smx` to the `plugins/disabled` folder.
-2. Unload Jump System by typing `sm plugins unload l4d_late_model_precacher` in the server console.
+2. Unload `Late Model Precacher` by typing `sm plugins unload l4d_late_model_precacher` in the server console.
 
 ## Third-Party Revisions Notice
 If you would like to share your own revisions of this plugin, please rename the files so that there is no confusion for users.
